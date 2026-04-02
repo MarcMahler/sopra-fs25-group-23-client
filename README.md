@@ -136,7 +136,7 @@ To set up the project locally, follow these steps:
 
 ### External Dependencies
 
-- **Backend Server**: This frontend application requires the backend server to be running. Refer to the [server repository](https://github.com/Janosch123123/sopra-fs25-group-23-server) for setup instructions.
+- **Backend Server**: This frontend application requires the backend server to be running. Refer to the [server repository](https://github.com/MarcMahler/sopra-fs25-group-23-server) for setup instructions.
 
 ### Deployment
 
