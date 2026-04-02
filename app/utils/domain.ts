@@ -7,7 +7,7 @@ import { isProduction } from "@/utils/environment";
  */
 export function getApiDomain(): string {
   const prodUrl = process.env.NEXT_PUBLIC_PROD_API_URL ||
-    "https://cogent-symbol-459811-c6.oa.r.appspot.com/"; // TODO: update with your production URL as needed.
+    "https://sopra-fs25-group-23-server-3.onrender.com/"; // TODO: update with your production URL as needed.
   const devUrl = "http://localhost:8080";
   return isProduction() ? prodUrl : devUrl;
 }
@@ -16,7 +16,7 @@ export function getApiDomain(): string {
 export function getWebSocketDomain(): string {
   if (isProduction()) {
     const prodUrl = process.env.NEXT_PUBLIC_PROD_WS_URL || 
-      "wss://cogent-symbol-459811-c6.oa.r.appspot.com/ws";
+      "wss://sopra-fs25-group-23-server-3.onrender.com/ws"; // changed from Google cloud deployment to Render deployment (free)
     return prodUrl;
   } else {
     return "ws://localhost:8080/ws";
